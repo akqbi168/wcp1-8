@@ -16,10 +16,10 @@ main {
 }
 
 .article {
-	width: 300px;
+	width: 31%;
 	border: 1px solid #eee;
 	padding: 10px;
-	margin-right: 20px;
+	margin-right: 2%;
 	float: left;
 	position: relative;
 }
@@ -28,22 +28,36 @@ main {
 }
 .step {
 	background-color: orange;
-	float: left;
 	position: absolute;
 	top: 0;
 	left: 0;
 	color: #fff;
 	padding: 3px;
 }
-.article-img {
-	width: 100%;
+
+.article-img1 {
 	height: 150px;
-	position: bottom;
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.article-img2 {
+	height: 150px;
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.article-img3 {
+	height: 150px;
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
 }
 
 h2 {
 	color: #666;
-	font-size: 20px;
+	font-size: 18px;
+	margin: 10px 0 5px;
 }
 p {
 	color: #666;
